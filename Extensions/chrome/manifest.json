@@ -1,0 +1,25 @@
+{
+    "name": "Computer Name Retrieval",
+    "author": "CLIPS",
+    "version": "1.0",
+    "description": "Retrieves the computer name of the host",
+    "icons": {
+        "48": "image/clips.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/"],
+            "run_at": "document_idle",
+            "js": ["contentScript.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "nativeMessaging"
+    ],
+    "browser_action": {},
+    "manifest_version": 2
+}

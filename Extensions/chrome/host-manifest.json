@@ -1,0 +1,9 @@
+{
+	"name": "clips.native.messaging.host",
+	"description": "Retrieves the computer name of the host",
+	"path": "C:\\Repos\\CLIPS\\CLIPS-source\\Application\\Extensions\\app\\app.exe",
+	"type": "stdio",
+	"allowed_origins": [
+		"chrome-extension://anlfolhkkngbjcbgohioacllfloopffa/"
+	]
+}

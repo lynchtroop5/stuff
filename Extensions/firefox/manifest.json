@@ -1,0 +1,31 @@
+{
+    "name": "Computer Name Retrieval",
+    "author": "CLIPS",
+    "version": "1.0",
+    "description": "Retrieves the computer name of the host",
+    "icons": {
+        "48": "image/clips.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "{67266820-a5b0-4c0c-9906-3f421f3e7e0a}"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/"],
+            "run_at": "document_idle",
+            "js": ["contentScript.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "nativeMessaging"
+    ],
+    "browser_action": {
+        "default_icon": "image/clips.png"
+    },
+    "manifest_version": 2
+}
