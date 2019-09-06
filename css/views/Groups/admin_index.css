@@ -1,0 +1,9 @@
+/* Fix operations column width in table since we display more 
+   icons on this screen
+   */
+   .data_table th:first-child
+   {
+       width: 6em;
+       text-align: right;
+   }
+   

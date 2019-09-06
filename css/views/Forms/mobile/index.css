@@ -1,0 +1,41 @@
+/*******************************************************************************
+ * Copyright 2011 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+.nav-querytypes .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+.nav-querytypes .ui-btn .ui-icon { 
+    width: 30px!important; 
+    height: 30px!important;
+    margin-left: -15px !important; 
+    box-shadow: none!important; 
+    -moz-box-shadow: none!important; 
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important; 
+    border-radius: 0 !important; 
+}
+
+
+.ui-icon-clips-plate { background:  url(/img/vehicle.png) 50% 50% no-repeat; /*background-size: 30px 19px;*/ }
+.ui-icon-clips-person-oln { background:  url(/img/person-oln.png) 50% 50% no-repeat; /*background-size: 30px px;*/ }
+.ui-icon-clips-person-name { background:  url(/img/person-name.png) 50% 50% no-repeat; /*background-size: 30px 19px;*/ }
+.ui-icon-clips-gun { background:  url(/img/gun.png) 50% 50% no-repeat; /*background-size: 30px 19;*/ }
+.ui-icon-clips-article { background:  url(/img/article.png) 50% 50% no-repeat; /*background-size: 30px 19px;*/ }
+
+.error-message {
+    margin: 8px;
+    margin-left: 2%;
+    padding-left: 20%;
+    font-weight: bold;
+    color: red;
+}
+
+.input {
+    margin-bottom: 10px;
+}

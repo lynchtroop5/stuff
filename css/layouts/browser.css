@@ -1,0 +1,94 @@
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+#browsermenu
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 250px;
+	overflow: auto;
+	padding: 8px 4px 0px 4px;
+}
+
+#content
+{
+	position: absolute;
+	padding: 8px 6px 0px 6px;
+	top: 0px;
+	left: 258px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+#commandLineShell
+{
+    display: none;
+    position: absolute;
+    height: 15em;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+}
+
+
+#commandLineList
+{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #9c9c9c;
+}
+
+#commandLineList a
+{
+    width: 100%;
+    cursor: pointer;
+    color: #000000;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+#commandLineList a span
+{
+    padding: 1px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#commandLineList a span:first-child
+{
+    width: 2.5em;
+    text-align: right;
+    padding-right: 4px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #9c9c9c;
+}
+
+#commandLineList a.selected
+{
+    color: #ffffff;
+    background-color: #336699;
+}
+
+#commandLineList a.selected span:first-child
+{
+    color: #ffffff;
+    background-color: #336699;
+}

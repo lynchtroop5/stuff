@@ -1,0 +1,176 @@
+
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+.clips-request-title
+{
+    margin: 0px;
+    padding: 6px;
+    font-size: large;
+    background-color: #c9c9c9;
+}
+
+.clips-request-summary
+{
+    margin: 0px;
+    padding: 0px;
+    color: #303030;
+    font-size: small;
+    font-style: italic;
+}
+
+.clips-response-header
+{
+    margin: 0px;
+    padding: 4px;
+    font-size: medium;
+    background-color: #c9c9c9;
+}
+
+.clips-unformatted
+{
+    padding: 4px;
+    margin: 0px;
+    border: 1px solid #c9c9c9;
+    margin-bottom: 12px;
+}
+
+h2
+{
+    font-size: small;
+}
+
+.print_table
+{
+	overflow: hidden; /* Fix IE table width problem */
+	margin: 0px 0px 12px 0px;
+}
+
+.print_table table
+{
+	width: 100%;
+}
+
+.print_table th
+{
+	padding: 4px;
+	text-align: left;
+    vertical-align: bottom;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.print_table tr.disabled 
+{
+    color: #9c9c9c;
+}
+
+.data_table th:first-child
+{
+	width: 6em;
+	text-align: center;
+}
+
+.print_table td
+{
+	padding: 4px;
+    vertical-align: top;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.print_table td:first-child
+{
+	text-align: center;
+}
+
+.response_table
+{
+    margin-top: 12px;
+	overflow: hidden; /* Fix IE table width problem */
+}
+
+.response_table table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.response_table table td
+{
+    vertical-align: top;
+    
+}
+
+.response_table tr.response_type th
+{
+    color: #ffffff;
+    text-align: left;
+    padding: 1px;
+    background-color: #9c9c9c;
+    border: 1px solid #ffffff;
+}
+
+.response_table td
+{
+    border: 1px solid #ffffff;
+}
+
+.response_table .response_details
+{
+    width: 15em;
+    background-color: #f0f0f0;
+}
+
+.response_table .response_details th
+{
+    padding: 1px;
+    /*border: 1px solid #ffffff;*/
+    /*background-color: #c9c9c9;*/
+}
+
+.response_table .response_details td
+{
+    padding: 1px;
+    border: 0px;
+    /*border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;*/
+}
+
+.response_table .response_text pre
+{
+    margin: 1px;
+}
+
+.response_table th
+{
+}
+
+.response_table td
+{
+}
+
+.response_table td:first-child
+{
+    vertical-align: top;
+}
+
+.response_table td:first-child th
+{
+    text-align: left;
+}
+
+.response_table tr.even
+{
+}
+
+.response_table tr.odd
+{
+}

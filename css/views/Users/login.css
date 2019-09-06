@@ -1,0 +1,102 @@
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+#content
+{
+    margin: 75px auto 0px auto;
+    width: 400px;     /* Width of CommSys image */
+}
+
+#content div.commsys
+{
+    width: 344px;
+    margin: 0px auto 0px auto;
+}
+
+.commsys
+{
+    text-align: center;
+    background-color: #fff;
+}
+
+#login_container
+{
+    border: 1px solid #000000;
+    background-color: #336699;
+    margin-top: 40px;
+}
+
+.mobile_login
+{
+    margin-top: 0 !important;
+}
+
+#login_container > div
+{
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #9c9c9c;
+}
+
+#login_container h1
+{
+    color: #336699;
+    font-size: medium;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+form div
+{
+    margin-left: 50px;
+    margin-bottom: 12px;
+}
+
+form:nth-child(2) div:nth-child(2) 
+{
+    position: relative;
+    left: -50px;
+}
+
+#login_container div.right
+{
+    text-align:  right;
+    margin-right: 68px;
+}
+
+form label
+{
+    width: 7em;
+    display: inline-block;
+    padding-right: 8px;
+}
+
+#login_container select, #login_container input
+{
+    width: 12em;
+}
+
+#deviceInfo
+{
+    margin-top: 16px;
+    text-align: center;
+}
+
+#client_status
+{
+    color: #9c9c9c;
+}
+
+#client_status.error
+{
+    color: #ff0000;
+}

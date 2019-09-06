@@ -1,0 +1,235 @@
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+#browsermenu .box ul
+{
+    border: 0px;
+    background-color: #ffffff;
+}
+
+#formlist
+{
+    position: absolute;
+    top: 100px;
+    left: 4px;
+    right: 4px;
+    bottom: 0px;
+    overflow: auto;
+    border: 1px solid #c9c9c9;
+}
+
+#formlist a
+{
+    color: #000000;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+#formlist a:hover
+{
+    color: #ffffff;
+    background-color: #336699;
+}
+
+#formlist a .name
+{
+    display: inline-block;
+    width: 2em;
+    overflow: hidden;
+}
+
+#formlist a .mke
+{
+    display: inline-block;
+    width: 3em;
+    overflow: hidden;
+}
+
+#formlist a .title
+{
+}
+
+.table_filter
+{
+    border: 0px;
+}
+
+.table_filter th
+{
+    color: #ffffff;
+    text-align: left;
+    padding: 1px;
+    background-color: #9c9c9c;
+    border: 1px solid #ffffff;
+    padding: 4px;
+}
+
+.table_filter td
+{
+    background-color: #ffffff;
+}
+
+#form
+{
+    overflow: hidden;
+}
+
+.clipsSecHead1
+{
+	padding: 3px;
+	background-color: #ffcc33;
+    border-bottom: 1px solid #666666;
+
+	font-size: small;
+	font-weight: bold;
+}
+
+.clipsLabel 
+{
+	font-size: 8pt;
+    text-align: right;
+}
+
+.field_m, .field_o, .field_c
+{
+	font-size: 10pt;
+	font-family: Courier;
+}
+.field_m { border: 1px solid #cc0000; }
+.field_o { border: 1px solid #666666; }
+.field_c { border: 1px solid #0000cc; }
+.label_m { color: #cc0000; }
+.label_o { }
+.label_c { color: #0000cc; }
+
+#form img
+{
+    cursor: pointer;
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+#dropdownShell
+{
+    display: none;
+    position: absolute;
+    width: 35em;
+    height: 15em;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+}
+
+#dropdownList
+{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 27px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #9c9c9c;
+}
+
+#dropdownList a
+{
+    width: 100%;
+    cursor: pointer;
+    color: #000000;
+    display: block;
+    white-space: nowrap;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+#dropdownList a.selected {
+    text-decoration: none;
+    background-color: #c9c9c9;
+    
+}
+
+#dropdownList a.selected span:first-child
+{
+    color: #ffffff;
+    background-color: #336699;
+}
+
+#dropdownList a span
+{
+    padding: 1px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#dropdownList a span:first-child
+{
+    width: 5em;
+    text-align: right;
+    padding-right: 4px;
+    background-color: #ffffff;
+    border-right: 1px solid #9c9c9c;
+}
+
+#dropdownControl
+{
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    height: 18px;
+    border: 1px inset #c9c9c9;
+}
+
+#dropdownControl input
+{
+    border: 0px;
+    width: 100%;
+}
+
+#content
+{
+    bottom: 50px;
+}
+
+.hpHelpToolTip
+{
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	visibility: hidden;
+
+ 	padding: 2px;
+ 
+ 	font-size: 8pt;
+ 	color:  InfoText;
+ 	
+ 	border: 1px solid InfoText;
+ 	background-color: InfoBackground;
+}
+
+#ClipsForm.test-mode > table td
+{
+    background-image: url('/img/test.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 32px 32px;
+    background-position-x: 16px;
+}
+
+.test-mode .clipsSecHead1
+{
+    color: #ffffff;
+    background-color: #606060;
+}

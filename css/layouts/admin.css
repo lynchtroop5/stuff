@@ -1,0 +1,204 @@
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+#adminmenu
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 250px;
+	overflow: auto;
+	padding: 8px 4px 0px 4px;
+}
+
+#content
+{
+	position: absolute;
+	padding: 8px 6px 0px 6px;
+	top: 0px;
+	left: 258px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+#agencySelect select
+{
+	width: 100%;	
+}
+
+.actions
+{
+    margin-bottom: 4px;
+}
+
+.view_table
+{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.view_table tr
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.view_table th
+{
+    width: 25%;
+    margin: 0px;
+    padding: 4px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.view_table td
+{
+    margin: 0px;
+    padding: 4px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.use_notice 
+{
+    margin-left: 6px;
+}
+
+/* Default Admin form width */
+.admin_form
+{
+    display: block;
+    width: 35em;
+}
+
+.reset-button
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.modal 
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.5s, opacity 0.5s 0s, transform 0.5s;
+}
+
+.modal-button
+{
+    float: right;
+}
+
+.modal-content 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    width: 40%;
+    min-width: 600px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.close-button 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    background-color: #000;
+    color: #336699;
+    font-weight: 600;
+}
+
+.close-button:hover 
+{
+    background-color: #a9a9a9;
+    color: #000;
+}
+
+.show-modal 
+{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.5s 0s, transform 0.5s;
+}
+
+.modal-header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #336699;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-reference
+{
+    position: relative;
+    top: 48px;
+    max-width: 100%;
+}
+
+.modal-reference-table
+{
+    position: relative;
+    left: 12%;
+    max-width: 75%;
+    text-align: center;
+}
+
+td, th
+{
+    padding: 12px 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+code
+{
+    padding: 0 5px;
+    background: #f1f1f1;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.paragraph
+{
+    position: relative;
+    top: 10px;
+    left: 13%;
+    width: 65%;
+}

@@ -1,0 +1,62 @@
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+.response_container
+{
+    color: #000000;
+    text-shadow: none;
+    background-color: #ffffff;
+}
+
+table.response .divider.hit
+{
+    color: #ffffff;
+    background-color: #f00;
+}
+
+.new_response {
+    background-image: linear-gradient(#ff5050,#ff5050);
+    color: #fff;
+    text-shadow: none;
+    border: 1px solid #ff5050;
+}
+
+table.response,
+.response_container table.response th,
+.response_container table.response td
+{
+    border-collapse: collapse;
+    border: 1px solid #d0d0d0;
+    border-bottom: none;
+}
+
+table.response
+{
+    font-size: small;
+    font-family: Courier New;
+}
+
+.divider
+{
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #c9c9c9;
+    border: none !important;
+}
+
+table.response .line
+{
+    background-color: #fff;
+    width: 100%;
+    height: 15px;
+}
+

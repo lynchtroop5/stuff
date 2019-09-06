@@ -1,0 +1,291 @@
+/*******************************************************************************
+ * Copyright 2012 CommSys Incorporated, Dayton, OH USA. 
+ * All rights reserved. 
+ *
+ * Federal copyright law prohibits unauthorized reproduction by any means 
+ * and imposes fines up to $25,000 for violation. 
+ *
+ * CommSys Incorporated makes no representations about the suitability of
+ * this software for any purpose. No express or implied warranty is provided
+ * unless under a souce code license agreement.
+ ******************************************************************************/
+
+#browsermenu .box ul
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+#browsermenu .box ul li
+{
+}
+
+#browsermenu .box a
+{
+    padding: 2px;
+    color: #000000;
+    display: block;
+}
+
+#browsermenu .box h1 a
+{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+
+#browsermenu .box a:hover
+{
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #336699 !important;
+    text-decoration: none;
+}
+
+#requestlist
+{
+    position: absolute;
+    top: 76px;
+    left: 4px;
+    right: 4px;
+    bottom: 0px;
+    overflow: auto;
+    border: 1px solid #c9c9c9;
+}
+
+#browsermenu a
+{
+    padding: 2px;
+    display: block;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+#browsermenu a.hit
+{
+    background-color: #fff;
+}
+
+#browsermenu a:hover
+{
+    text-decoration: none;
+}
+
+#browsermenu a.selected
+{
+    font-weight: bold;
+}
+
+#browsermenu a:hover
+{
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #336699 !important;
+}
+
+#browsermenu a .mke
+{
+    display: inline-block;
+    width: 3em;
+}
+
+#browsermenu a .title
+{
+    display: inline-block;
+}
+
+#browsermenu a .count
+{
+    display: inline-block;
+    width: 3em;
+}
+
+a .count.new
+{
+    color: #f00;
+}
+
+#browsermenu a .info
+{
+    display: inline-block;
+}
+
+#browsermenu a .time
+{
+    color: #343434;
+    display: inline-block;
+    margin-left: 3em;
+    font-style: italic;
+}
+
+#browsermenu a.selected .time
+{
+    font-weight: normal;
+}
+
+.paging
+{
+    margin: 0 5px 12px 0;
+}
+
+.filter
+{
+    margin-bottom: 12px;
+}
+
+.filter > div
+{
+    margin-left: 25px;
+}
+
+.filter > div:first-child
+{
+    float: left;
+    width: 15px;
+    margin: 6px 0px 0px 2px;
+}
+
+#request
+{
+	position: absolute;
+	top: 0px;
+	left: 258px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	margin: 8px 0px 0px 6px;
+}
+
+#request_title
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 6px;
+	height: 110px;
+	overflow: hidden;
+}
+
+#content
+{
+    padding: 0px;
+	position: absolute;
+	top: 110px;
+	left: 0px;
+	right: 0px;
+    bottom: 50px;
+	overflow: auto;
+}
+
+#content .box ul
+{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 0px;
+    background-color: #ffffff;
+}
+
+#content .box li
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Consolas, Courier;
+    border-bottom: 1px solid #9c9c9c;
+    /*white-space: pre;*/
+}
+
+#content .box li.drilldown 
+{
+    font-weight: bold;
+}
+
+#content .box a.drilldown
+{
+    color: slateblue;
+    font-weight: bold;
+}
+
+#content .box ul.numbers, ul.numberClass
+{
+    float: left;
+    width: 3em;
+}
+
+#content .box ul.numbers, ul.numberClass li
+{
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#content .box ul.lines
+{
+    margin-left: 3em;
+}
+
+#content .box ul.lines li
+{
+    padding-left: 6px;
+}
+
+#content .box.hit ul.lines li
+{
+    background-color: #fff;
+}
+
+#content .box.hit ul.numbers li
+{
+    background-color: #ffaaaa;
+    color: #fff;
+}
+
+#content .box.hit ul.numberClass li
+{
+    background-color: #ed8137;
+    color: #fff;
+}
+
+#content .box ul.images
+{
+    border-top: 0px;
+    background-color: #f0f0f0;
+}
+
+#content .box ul.images li
+{
+    padding-left: 3em;
+}
+
+#content .box ul.images li img
+{
+}
+
+.response_time
+{
+    float: right;
+    padding-right: 10px;
+    padding-top: 1px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.archive_request
+{
+    margin-top: 1px;
+    float: right;
+}
+
+.hit_alert 
+{
+    background-color: #ffaaaa !important;
+    color: #000 !important;
+}
+
+.hit_confirmation 
+{
+    background-color: #ed8137 !important;
+    color: #fff !important;
+}
